@@ -1,0 +1,10 @@
+%echo Generating a default key
+Key-Type: RSA
+Subkey-Type: RSA
+Name-Real: <Your Name>
+Name-Comment: How to Use PGP to Encrypt Your Terraform Secrets
+Name-Email: <your-email@example.com>
+Expire-Date: 2
+# Passphrase: ABC
+%commit
+%echo done
